@@ -1,0 +1,24 @@
+{
+  "name": "certificacao-bootstrap",
+  "description": "Certificacao Bootstrap - Atividade Refatoracao",
+  "main": "index.js",
+  "authors": [
+    "Carlos Gleyber"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "curso",
+    "bootstrap"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}

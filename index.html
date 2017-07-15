@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Atividade Refatoração</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+	<div class="container text-center">
+		<br><br>
+		<h1 class="titulo-atividade">Atividade Refatoração - Quase lá</h1>
+
+		<br><br>
+		<h3>Clique em qualquer um dos botões abaixo.</h3>
+
+		<br><br>
+		<!-- Button Primary -->
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#normal">
+			Normal
+		</button> <!-- Button Primary -->
+
+		<!-- Button Warning -->
+		<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#atencao">
+			Atenção
+		</button> <!-- Button Warning -->
+
+		<!-- Button Info -->
+		<button type="button" class="btn btn-info" data-toggle="modal" data-target="#info">
+			Informação
+		</button> <!-- Button Info -->
+
+		<!-- Button Danger -->
+		<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#perigo">
+			Perigo
+		</button> <!-- Button Danger -->
+
+		<!-- Button Success -->
+		<button type="button" class="btn btn-success" data-toggle="modal" data-target="#successo">
+			Sucesso
+		</button> <!-- Button Success -->
+
+		<br><br>
+		Espero que esteja correto e tenha entendido a tarefa corretamente!
+		<br><br>
+		E vamos concluir esse curso!
+
+	</div>
+
+	<!-- Normal -->
+	<div class="modal modal-tema modal-primary fade" id="normal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<i class="modal-title fa fa-thumbs-o-up fa-4x" aria-hidden="true"></i>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<h2 class="text-center">Janela normal criada!</h2>
+					<p class="description text-center">Essa é uma janela normal</p>
+					<p class="description text-center">Suas informações foram gravadas!</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-toggle="modal" href="#surpresa">Surpresa!!</button>
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Fechar janela</button>
+				</div>
+			</div>
+		</div>
+	</div> <!-- Primary -->
+
+	<!-- Warning -->
+	<div class="modal modal-tema modal-warning fade" id="atencao" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<i class="modal-title fa fa-exclamation-triangle fa-4x" aria-hidden="true"></i>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<h2 class="text-center">Atenção!</h2>
+					<p class="description text-center">Esta é uma janela de alerta!</p>
+					<p class="description text-center">Olha bem o que você está fazendo!</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-toggle="modal" href="#surpresa">Surpresa!!</button>
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Fechar janela</button>
+				</div>
+			</div>
+		</div>
+	</div> <!-- Warning -->
+
+	<!-- Info -->
+	<div class="modal modal-tema modal-info fade" id="info" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<i class="modal-title fa fa-info-circle fa-4x" aria-hidden="true"></i>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<h2 class="text-center">Informação</h2>
+					<p class="description text-center">Esta é uma janela de informação ao usuário.</p>
+					<p class="description text-center">Sim, a terra é redonda!</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-toggle="modal" href="#surpresa">Surpresa!!</button>
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Fechar janela</button>
+				</div>
+			</div>
+		</div>
+	</div> <!-- Info -->
+
+	<!-- Danger -->
+	<div class="modal modal-tema modal-danger fade" id="perigo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<i class="modal-title fa fa-ban fa-4x" aria-hidden="true"></i>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<h2 class="text-center">Perigo</h2>
+					<p class="description text-center">Esta é uma janela de aviso de perigo.</p>
+					<p class="description text-center">Presta atenção no que está fazendo!!</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-toggle="modal" href="#surpresa">Surpresa!!</button>
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Fechar janela</button>
+				</div>
+			</div>
+		</div>
+	</div> <!-- Danger -->
+
+	<!-- Success -->
+	<div class="modal modal-tema modal-success fade" id="successo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<i class="modal-title fa fa-check-circle-o fa-4x" aria-hidden="true"></i>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<h2 class="text-center">Janela de sucesso!</h2>
+					<p class="description text-center">Esta é uma janela de sucesso.</p>
+					<p class="description text-center">Parabéns!! Você conseguiu!!</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-toggle="modal" href="#surpresa">Surpresa!!</button>
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Fechar janela</button>
+				</div>
+			</div>
+		</div>
+	</div> <!-- Success -->
+
+	<!-- Surpresa -->
+	<div class="modal modal-tema modal-surpresa fade" id="surpresa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<i class="modal-title fa fa-child fa-4x" aria-hidden="true"></i>
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<h2 class="text-center">Janela de surpresa!</h2>
+					<p class="description text-center">Esta é uma janela modal a partir de outra modal!</p>
+					<p class="description text-center">Faça cara de surpresa! Por favor!</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+				</div>
+			</div>
+		</div>
+	</div> <!-- Surpresa -->
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/tether.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
